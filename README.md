@@ -1,6 +1,6 @@
 # dup-schema-repro
 
-Minimal reproduction for a [pb33f/libopenapi](https://github.com/pb33f/libopenapi) bundler issue. Details are in the linked upstream issue.
+Minimal reproduction for a [pb33f/libopenapi](https://github.com/pb33f/libopenapi) bundler issue. Details are in the [linked upstream issue](https://github.com/pb33f/libopenapi/issues/644).
 
 ## Run
 
