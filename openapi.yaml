@@ -1,0 +1,23 @@
+openapi: 3.1.0
+info:
+  title: repro
+  version: 1.0.0
+paths:
+  /a:
+    get:
+      responses:
+        "200":
+          description: ok
+          content:
+            application/json:
+              schema:
+                $ref: "./schemas/Wrapper.yaml"
+  /b:
+    get:
+      responses:
+        "400":
+          description: bad
+          content:
+            application/json:
+              schema:
+                $ref: "./schemas/Extended.yaml"
